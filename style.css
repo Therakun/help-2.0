@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.89);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul {
+    display: none;
+}
+
+.logo {
+    width: 25%;
+
+    float: left;
+
+    padding: 15px;
+}
+
+nav {
+    width: 75%;
+
+    text-align: right;
+    float: right;
+}
+
+.logo-text {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+
+    border: 4px solid white;
+
+    padding: 4px;
+}
+
+.icon {
+    padding: 15px;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+    
+    background-color: aliceblue;
+}
+
+
+
+.banner {
+    clear: both;
+
+    height: 500px;
+
+    background-image: url('images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h2 {
+    color: white;
+    font-weight: bolder;
+
+    font-size: 35px;
+
+    text-align: center;
+
+}
+
+.top-btn {
+    margin: 8px;
+
+    background: none;
+
+    border: 3px solid white;
+    border-radius: 15px;
+
+    color: whitesmoke;
+
+    padding: 15px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    transition: all 500ms;
+
+}
+
+
+.top-btn:hover {
+    background-color: white;
+    color: black;
+
+    transform: translateY(5px)
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.23);
+
+    padding-top: 200px;
+
+    text-align: center;
+}
+
+.section-title {
+    padding: 10px;
+
+    text-align: center;
+
+    color: white;
+
+    border-bottom: 2px solid white;
+}
+
+.b-food-card {
+    height: 450px;
+    width: 40%;
+
+    background-color: lavender;
+
+    margin: 10px auto;
+
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+.b-food-image {
+    height: 60%;
+
+    background-color: brown;
+}
+
+.b-food-image img {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 15px;
+}
+
+.b-food-desc {
+    height: 40%;
+
+    color: white;
+
+    background-color: grey;
+}
